@@ -1,4 +1,3 @@
-# F1
 ## Link:
 https://infmys-f1.netlify.app/
 ## Status:
