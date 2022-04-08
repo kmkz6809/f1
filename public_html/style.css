@@ -7,6 +7,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.montfont-sb {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
 .rfont {
   font-family: 'Roboto', sans-serif;
 }
@@ -59,4 +64,5 @@
 .f1turbofont {
   font-family: "F1 Turbo";
 }
+
 /* End Of Font Section *
