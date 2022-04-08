@@ -1,12 +1,66 @@
+/* Start Of Font Section */
 .pmfont {
   font-family: 'Permanent Marker', cursive;
 }
+
 .montfont {
   font-family: 'Montserrat', sans-serif;
 }
+
 .rfont {
   font-family: 'Roboto', sans-serif;
 }
+
 .disclaimer {
-	visibility: hidden;
+  visibility: hidden;
 }
+
+@font-face {
+  font-family: "Formula 1 Regular";
+  src: url("./media/fonts/Formula1-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Formula 1 Bold";
+  src: url("./media/fonts/Formula1-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Formula 1 Wide";
+  src: url("./media/fonts/Formula1-Wide.ttf");
+}
+
+@font-face {
+  font-family: "Formula 1 Black";
+  src: url("./media/fonts/Formula1-Black.ttf");
+}
+
+@font-face {
+  font-family: "F1 Turbo";
+  src: url("./media/fonts/F1_Turbo.otf");
+}
+
+.f1rfont {
+  font-family: "Formula 1 Regular";
+}
+
+.f1bfont {
+  font-family: "Formula 1 Bold";
+}
+
+.f1wfont {
+  font-family: "Formula 1 Wide";
+}
+
+.f1blfont {
+  font-family: "Formula 1 Black";
+}
+
+.f1turbofont {
+  font-family: "F1 Turbo";
+}
+/* End Of Font Section */
+/* 
+.f1lborder {
+  border: ;
+} */
