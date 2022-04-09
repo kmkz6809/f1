@@ -47,61 +47,59 @@
       </div>
     </div>
   </nav>
-  <center>
-    <div class="border-bottom" style="margin-right: 500px; margin-left: 500px; margin-top: 40px;">
-      <img src="../media/f1_logo.svg" alt="Formula 1 Logo" width="100" style="margin-top: 15px;">
-      <h1 class="f1wfont" style="margin-top: 5px; font-size: 30px;"> Formula 1</h1>
-      <div style="margin-bottom: 20px"></div>
-    </div>
-    <br>
-
-    <!-- Start Of Streams Section -->
-    <div class="border rounded-3" style="margin-right: 530px; margin-left: 530px; margin-top: 10px;">
-      <h4 class="f1rfont" style="margin-top: 10px">Streams</h4>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-1.html"><i class="fas fa-play-circle"></i>&ensp; Stream 1</a>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-2.html"><i class="fas fa-play-circle"></i>&ensp; Stream 2</a>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-3.html"><i class="fas fa-play-circle"></i>&ensp; Stream 3</a>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-4.html"><i class="fas fa-play-circle"></i>&ensp; Stream 4</a>
-      <!-- End Of Streams Section -->
-      <div style="margin-bottom: 10px"> </div>
-    </div>
-
-    <br>
-    <div class="border rounded-3" style="margin-right: 530px; margin-left: 530px; margin-top: 10px;">
-      <!-- Start Of Link Section -->
-      <h4 class="f1rfont" style="margin-top: 10px">Links</h4>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./links/f1-l1.html"><i class="fas fa-link"></i>&ensp; Link 1</a>
-      <a type="button" class="btn btn-dark btn-sm f1rfont" href="./links/f1-l2.html"><i class="fas fa-link"></i>&ensp; Link 2</a>
-      <!-- End Of Links Section -->
-      <div style="margin-bottom: 10px"> </div>
-    </div>
-
-    <!-- Start Of Schedule Section -->
-    <div class="" style="margin-top: 30px">
-      <button type="button" class="btn btn-outline-light f1rfont" data-bs-toggle="modal" data-bs-target="#scheduleModal">
-        <i class="fas fa-calendar-alt"></i>&ensp; Schedule
-      </button>
-
-      <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg bg-dark text-light">
-          <div class="modal-content bg-dark text-light">
-            <div class="modal-header">
-              <h5 class="modal-title f1rfont" id="scheduleModalLabel">F1 2022 Schedule</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <center>
-                <img src="../media/img/2022.png" alt="2022 Schedule" width=770 height="500">
-                <br>
-                <a href="https://www.formula1.com/en/racing/2022.html" type="button" class="btn btn-dark f1rfont" style="margin-top: 10px;" target="_blank"><i class="fas fa-globe"></i>&ensp; Official Website</a>
-              </center>
+  <div class="container">
+    <div class="d-flex flex-column col-sm-10 col-md-6 mx-auto p-3">
+      <div class="border-bottom p-3 d-flex flex-column align-items-center justify-content-center">
+        <img src="../media/f1_logo.svg" alt="Formula 1 Logo" style="width:110px">
+        <h1 class="f1wfont"> Formula 1</h1>
+      </div>
+      <br>
+      <!-- Start Of Streams Section -->
+      <div class="border rounded-3 py-2 d-flex flex-column justify-content-center align-items-center">
+        <h4 class="f1rfont">Streams</h4>
+        <div class="link__container d-flex w-75 flex-wrap justify-content-center align-items-center">
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-1.html"><i class="fas fa-play-circle"></i>&ensp; Stream 1</a>
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-2.html"><i class="fas fa-play-circle"></i>&ensp; Stream 2</a>
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-3.html"><i class="fas fa-play-circle"></i>&ensp; Stream 3</a>
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./streams/f1-4.html"><i class="fas fa-play-circle"></i>&ensp; Stream 4</a>
+        </div>
+        <!-- End Of Streams Section -->
+      </div>
+      <br>
+      <div class="border rounded-3 py-2 d-flex flex-column justify-content-center align-items-center">
+        <!-- Start Of Link Section -->
+        <h4 class="f1rfont">Links</h4>
+        <div class="link__container d-flex">
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./links/f1-l1.html"><i class="fas fa-link"></i>&ensp; Link 1</a>
+          <a type="button" class="btn btn-dark btn-sm f1rfont" href="./links/f1-l2.html"><i class="fas fa-link"></i>&ensp; Link 2</a>
+        </div>
+        <!-- End Of Links Section -->
+      </div> <!-- Start Of Schedule Section -->
+      <div class="w-100 d-flex justify-content-center mt-4">
+        <button type="button" class="btn btn-outline-light f1rfont" data-bs-toggle="modal" data-bs-target="#scheduleModal">
+          <i class="fas fa-calendar-alt"></i>&ensp; Schedule
+        </button>
+        <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg text-light">
+            <div class="modal-content bg-dark text-light">
+              <div class="modal-header">
+                <h5 class="modal-title f1rfont" id="scheduleModalLabel">F1 2022 Schedule</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <center>
+                  <img class="w-100" src="../media/img/2022.png" alt="2022 Schedule">
+                  <br>
+                  <a href="https://www.formula1.com/en/racing/2022.html" type="button" class="btn btn-outline-light f1rfont my-3" style="margin-top: 10px;" target="_blank"><i class="fas fa-globe"></i>&ensp; Official Website</a>
+                </center>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- End Of Schedule Section -->
     </div>
-    <!-- End Of Schedule Section -->
-  </center>
+  </div>
   <script src="https://kit.fontawesome.com/d7d80f67ad.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

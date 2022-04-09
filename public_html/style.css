@@ -65,4 +65,8 @@
   font-family: "F1 Turbo";
 }
 
+.link__container > * {
+  margin: 5px;
+}
+
 /* End Of Font Section *
